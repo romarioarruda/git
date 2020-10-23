@@ -49,6 +49,11 @@
 > git checkout nomeArquivo
 
 #### Comandos básicos para commits
+`Puxando alterações da branch remota/atualizando branch local`
+
+> git pull
+
+
 `Visualizando alterações na branch`
 
 > git status
