@@ -51,7 +51,7 @@
 #### Comandos básicos para commits
 `Puxando alterações da branch remota/atualizando branch local`
 
-> git pull
+> git pull origin nomeBranch
 
 
 `Visualizando alterações na branch`
