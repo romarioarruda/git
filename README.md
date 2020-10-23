@@ -39,6 +39,11 @@
 
 > git branch -d nomeBranch
 
+#### Removendo todas as alterações de um arquivo
+
+`Antes de dar um git add`
+> git checkout nomeArquivo
+
 #### Comandos básicos para commits
 `Visualizando alterações na branch`
 
@@ -75,17 +80,15 @@
 > git push -u origin nomeBranch
 
 
-#### Revertendo alterações
-`Voltando para uma versão especifica e ignorando todos os outros a frente`
+#### Voltando versão do código.
+`Voltando para uma versão especifica e ignorando todos os commits à frente`
 
 > git reset --hard codVersao
-
 
 `Voltando para uma versão especifica e mantendo as modificações dos commits posteriores prontas para um novo commit`
 > git reset --soft codVersao
 
-
-`Voltando para uma versão especifica e mantendo as modificações dos commits posteriores sem o git add`
+`Voltando para uma versão especifica e mantendo as modificações dos commits posteriores sem o git add dos arquivos`
 > git reset --mixed codVersao
 >
 
