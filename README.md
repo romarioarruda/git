@@ -47,7 +47,7 @@
 
 `Visualizando diferença na alteração de um arquivo`
 
-> git diff
+> git diff nomeArquivo
 
 
 `Adicionando todos os arquivos alterados/adicionados/removidos ao commit`
