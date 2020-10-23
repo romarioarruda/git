@@ -39,7 +39,7 @@
 
 > git branch -d nomeBranch
 
-#### Comandos básicos
+#### Comandos básicos para commits
 `Visualizando alterações na branch`
 
 > git status
