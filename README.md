@@ -75,7 +75,7 @@
 > git push -u origin nomeBranch
 
 
-#### revertendo alterações
+#### Revertendo alterações
 `Voltando para uma versão especifica e ignorando todos os outros a frente`
 
 > git reset --hard codVersao
@@ -88,3 +88,18 @@
 `Voltando para uma versão especifica e mantendo as modificações dos commits posteriores sem o git add`
 > git reset --mixed codVersao
 >
+
+#### Mesclando duas branchs
+
+`Juntando alterações entre duas branchs usando o git merge`
+> git checkout nomeBranch `Precisamos estar dentro da branch que queremos mesclar com a master`
+>
+> git merge master `fazendo o merge entre a branch especifica e a master`
+>
+`Juntando alterações entre duas branchs usando o git rebase`
+> git checkout nomeBranch `Precisamos estar dentro da branch que queremos mesclar com a master`
+>
+> git rebase master `fazendo o rebase entre a branch especifica e a master`
+>
+
+Entenda melhor sobre cada comando acessando esse [link](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
