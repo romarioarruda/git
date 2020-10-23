@@ -102,4 +102,4 @@
 > git rebase master `fazendo o rebase entre a branch especifica e a master`
 >
 
-Entenda melhor sobre cada comando acessando esse [link](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
+Entenda melhor sobre `git merge` e `git rebase` neste post: [link](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
