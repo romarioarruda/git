@@ -4,7 +4,7 @@
 
 > git init
 
-#### Configurações adicionais básicas
+#### Configurações iniciais básicas
 
 `Configurando username`
 
