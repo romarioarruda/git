@@ -46,7 +46,7 @@
 
 #### Clonando um repositório do github
 
-> git clone urlDoGitHub.git
+> git clone url_do_repositorio.git
 
 
 #### Comandos básicos para commits
