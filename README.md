@@ -108,7 +108,7 @@
 Entenda melhor sobre `git merge` e `git rebase` neste post: [link](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
 
 
-#### Revertendo sem perder o código (Salvador de sexta feira)
+#### Revertendo commit sem perder o código (Salvador de sexta feira)
 
 `Commit que será desfeito sem perder a informação nos logs`
 > git revert --no-edit codeCommit
