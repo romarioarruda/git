@@ -43,10 +43,11 @@
 
 > git push origin :nomeBranch
 
-#### Removendo todas as alterações de um arquivo
 
-`Antes de dar um git add`
-> git checkout nomeArquivo
+#### Clonando um repositório do github
+
+> git clone urlDoGitHub.git
+
 
 #### Comandos básicos para commits
 `Puxando alterações da branch remota/atualizando branch local`
@@ -87,6 +88,11 @@
 `Sincronizando commit no github`
 
 > git push -u origin nomeBranch
+
+#### Removendo todas as alterações de um arquivo
+
+`Antes de dar um git add`
+> git checkout nomeArquivo
 
 
 #### Voltando versão do código.
