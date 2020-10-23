@@ -35,9 +35,13 @@
 > git branch
 
 
-`Removendo uma branch`
+`Removendo uma branch local`
 
 > git branch -d nomeBranch
+
+`Removendo uma branch remota`
+
+> git push origin :nomeBranch
 
 #### Removendo todas as alterações de um arquivo
 
