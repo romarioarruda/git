@@ -44,9 +44,9 @@
 > git push origin :nomeBranch
 
 
-#### Clonando um repositório do github
+#### Clonando um repositório
 
-> git clone url_do_repositorio.git
+> git clone url_do_repositorio
 
 
 #### Comandos básicos para commits
@@ -65,7 +65,7 @@
 > git diff nomeArquivo
 
 
-`Adicionando todos os arquivos alterados/adicionados/removidos ao commit`
+`Adicionando todos os arquivos alterados/adicionados/removidos ao commit de uma vez`
 
 > git add -A
 
@@ -85,7 +85,7 @@
 > git commit -am "Descrição do commit"
 
 
-`Sincronizando commit no github`
+`Sincronizando commit no github/bitbucket etc.`
 
 > git push -u origin nomeBranch
 
@@ -103,7 +103,7 @@
 `Voltando para uma versão especifica e mantendo as modificações dos commits posteriores prontas para um novo commit`
 > git reset --soft codVersao
 
-`Voltando para uma versão especifica e mantendo as modificações dos commits posteriores sem o git add dos arquivos`
+`Voltando para uma versão especifica e mantendo as modificações dos commits posteriores prontas para um novo git add nos arquivos`
 > git reset --mixed codVersao
 >
 
@@ -123,7 +123,7 @@
 Entenda melhor sobre `git merge` e `git rebase` neste post: [link](https://www.treinaweb.com.br/blog/git-merge-e-git-rebase-quando-usa-los/)
 
 
-#### Revertendo commit sem perder o código (Salvador de sexta feira)
+#### Revertendo commit sem perder o código.
 
 `Commit que será desfeito sem perder a informação nos logs`
 > git revert --no-edit codeCommit
