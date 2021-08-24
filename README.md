@@ -89,6 +89,10 @@
 
 > git push -u origin nomeBranch
 
+#### Reescrevendo um commit
+
+> git commit -m "Mensagem do commit" --amend
+
 #### Removendo todas as alterações de um arquivo
 
 `Antes de dar um git add`
