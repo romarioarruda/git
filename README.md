@@ -110,8 +110,8 @@
 `Voltando para uma versão especifica e mantendo as modificações dos commits posteriores prontas para um novo git add nos arquivos`
 > git reset --mixed codVersao
 
-`Revertendo commit sem perder o código`
-> git revert --no-edit codeCommit `Commit que será desfeito sem perder a informação nos logs`
+`Revertendo commit sem perder o código e a informação nos logs`
+> git revert --no-edit codeCommit
 
 #### Mesclando duas branchs
 
