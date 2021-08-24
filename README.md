@@ -89,7 +89,7 @@
 
 > git push -u origin nomeBranch
 
-#### Reescrevendo o último commit
+#### Reescrevendo um commit
 
 > git commit -m "Mensagem do commit" --amend
 
