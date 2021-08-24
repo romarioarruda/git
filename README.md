@@ -98,6 +98,10 @@
 `Antes de dar um git add`
 > git checkout nomeArquivo
 
+#### Removendo um arquivo do stage
+
+`Depois de dar um git add`
+> git reset -- nomeArquivo
 
 #### Voltando versão do código.
 `Voltando para uma versão especifica e ignorando todos os commits à frente`
